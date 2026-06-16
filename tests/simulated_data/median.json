@@ -1,0 +1,6 @@
+{
+  "filterType": "medianFilter",
+  "description": "Size-5 median filter with spike outliers at samples 3 and 7. Median rejects both spikes.",
+  "parameters": { "size": 5 },
+  "csv": "raw,expected\n5.00,5.0000\n5.10,5.1000\n4.90,5.0000\n100.00,5.1000\n5.00,5.0000\n5.20,5.1000\n4.80,5.0000\n-50.00,5.0000\n5.00,5.0000\n5.10,5.0000"
+}

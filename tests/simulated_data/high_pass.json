@@ -1,0 +1,6 @@
+{
+  "filterType": "highPassFilter",
+  "description": "Alpha=0.9 high-pass on constant DC=5.0. Output decays geometrically to 0, demonstrating DC rejection.",
+  "parameters": { "alpha": 0.9 },
+  "csv": "raw,expected\n5.00,4.5000\n5.00,4.0500\n5.00,3.6450\n5.00,3.2805\n5.00,2.9525\n5.00,2.6572\n5.00,2.3915\n5.00,2.1523\n5.00,1.9371\n5.00,1.7434"
+}

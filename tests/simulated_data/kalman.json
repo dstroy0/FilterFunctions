@@ -1,0 +1,6 @@
+{
+  "filterType": "kalmanFilter",
+  "description": "Q=0.001 R=0.1 Kalman on noisy measurements of true value 10.0. No expected column; tests verify statistical convergence.",
+  "parameters": { "processNoise": 0.001, "measurementNoise": 0.1 },
+  "csv": "raw\n10.50\n9.80\n10.20\n9.90\n10.30\n10.10\n9.70\n10.40\n9.80\n10.10\n10.00\n10.20\n9.90\n10.10\n10.00"
+}

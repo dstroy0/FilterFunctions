@@ -1,0 +1,34 @@
+# Compiled binaries (Linux / macOS)
+*.o
+*.a
+*.so
+*.out
+test_filters_bin
+test_examples_bin
+example_basic_bin
+example_advanced_bin
+example_expert_bin
+
+# Compiled binaries (Windows)
+*.exe
+*.obj
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+
+# Build / IDE artifacts
+build/
+.cache/
+*.dSYM/
+*.vscode/
+*.vs/
+
+# macOS
+.DS_Store
+
+# Arduino build artifacts
+*.elf
+*.hex
+*.bin

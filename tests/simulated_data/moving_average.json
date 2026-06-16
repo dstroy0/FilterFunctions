@@ -1,0 +1,6 @@
+{
+  "filterType": "movingAverage",
+  "description": "Window-4 moving average on noisy step 0->10. Expected values computed analytically.",
+  "parameters": { "windowSize": 4 },
+  "csv": "raw,expected\n0.30,0.0750\n-0.20,0.0250\n0.10,0.0500\n-0.30,-0.0250\n0.20,-0.0500\n10.30,2.5750\n9.80,5.0000\n10.10,7.6000\n9.70,9.9750\n10.20,9.9500"
+}

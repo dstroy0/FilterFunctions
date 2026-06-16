@@ -1,0 +1,6 @@
+{
+  "filterType": "complementaryFilter",
+  "description": "Alpha=0.98 complementary filter. Columns: accel_angle (deg), gyro_rate (deg/s). dt=0.02s. Stable hover at 45 deg then slow tilt.",
+  "parameters": { "alpha": 0.98, "dt": 0.02 },
+  "csv": "accel_angle,gyro_rate\n45.00,0.00\n45.10,0.50\n44.90,-0.50\n45.00,0.00\n45.10,0.50\n45.00,0.00\n44.90,-0.50\n45.10,0.50\n45.00,0.00\n45.00,0.00"
+}

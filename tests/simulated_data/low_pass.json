@@ -1,0 +1,6 @@
+{
+  "filterType": "lowPassFilter",
+  "description": "Alpha=0.2 one-pole low-pass on noisy step 0->10. Mathematically identical to EMA with same alpha.",
+  "parameters": { "alpha": 0.2 },
+  "csv": "raw,expected\n0.30,0.3000\n-0.20,0.2000\n0.10,0.1800\n-0.30,0.0840\n0.20,0.1072\n10.30,2.1458\n9.80,3.6766\n10.10,4.9613\n9.70,5.9090\n10.20,6.7672"
+}

@@ -1,0 +1,7 @@
+{
+  "filterType": "savitzkyGolay",
+  "description": "Window-5 SG (quadratic, degree 2/3) on triangle wave peak at x[4]=11. Calls 1-4 are warmup MA. Call 5 onward uses coefficients [-3,12,17,12,-3]/35 on the circular buffer (oldest→newest), outputting smooth(center) with 2-sample lag.",
+  "parameters": { "windowSize": 5 },
+  "note": "Expected values for calls 1-4: MA warmup. Calls 5-10: SG coefficient output. Call 5 returns smooth(x[2]=7)=7.0; call 7 returns smooth(x[4]=11) reduced to 10.3143 by the quadratic fit.",
+  "csv": "raw,expected\n3.00,3.0000\n5.00,4.0000\n7.00,5.0000\n9.00,6.0000\n11.00,7.0000\n9.00,9.3429\n7.00,10.3143\n5.00,9.3429\n3.00,7.0000\n1.00,5.0000"
+}
