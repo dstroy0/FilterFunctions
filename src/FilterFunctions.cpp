@@ -1,8 +1,10 @@
-/*
-  FilterFunctions - Arduino sensor filtering library
-  Copyright (c) 2026 Douglas Quigg (dstroy0) <dquigg123@gmail.com>
-  Licensed under the GNU Affero General Public License v3.0
-*/
+// SPDX-License-Identifier: AGPL-3.0-only
+// Copyright (c) 2026 Douglas Quigg (dstroy0) <dquigg123@gmail.com>
+
+/**
+ * @file FilterFunctions.cpp
+ * @brief FilterFunctions implementation — all ten filter algorithms.
+ */
 
 #include "FilterFunctions.h"
 
